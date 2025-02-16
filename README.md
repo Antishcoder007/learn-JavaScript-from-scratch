@@ -6,7 +6,7 @@ If you want to learn JavaScript form scratch here is the RoadMap that helps you 
 ---
 ## 📌 Week 1: JavaScript Fundamentals
 ---
-### 📍 Day 1: Introduction & Setup
+### 📍 [Day 1: Introduction & Setup](#javascript-learning---day-1-introduction--setup)
 #### ✅ What is `JavaScript`?
 #### ✅ History and Importance
 #### ✅ Setting up JS (Browser Console, VS Code)
