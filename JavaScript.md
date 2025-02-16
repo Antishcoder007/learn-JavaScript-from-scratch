@@ -89,3 +89,89 @@ console.log("JavaScript is successfully linked!");
 ✅ Create a simple **HTML + JavaScript file** and check the output in the browser.  
 
 You're all set! 🎉 Tomorrow, we'll dive into **JavaScript Basics: Variables, Data Types & Operators**. 🚀
+---
+---
+
+## 📍 Day 2: JavaScript Basics
+
+### ✅ Variables (var, let, const)
+Variables store data in JavaScript. There are three ways to declare variables:
+- **var**: Function-scoped, can be re-declared and updated.
+- **let**: Block-scoped, can be updated but not re-declared.
+- **const**: Block-scoped, cannot be updated or re-declared.
+
+Example:
+```js
+var x = 10;
+let y = 20;
+const z = 30;
+console.log(x, y, z);
+```
+
+### ✅ Data Types
+JavaScript has different data types:
+1. **String**: Text data (`"Hello World"`)
+2. **Number**: Numeric values (`10, 3.14`)
+3. **Boolean**: True/False values (`true, false`)
+4. **Null**: Empty value (`null`)
+5. **Undefined**: Variable declared but not assigned (`undefined`)
+
+Example:
+```js
+let name = "Alice";
+let age = 25;
+let isStudent = true;
+let emptyValue = null;
+let notAssigned;
+console.log(name, age, isStudent, emptyValue, notAssigned);
+```
+
+### ✅ Operators
+Operators are used to perform operations on variables and values.
+
+#### 1️⃣ Arithmetic Operators
+Used for mathematical operations:
+```js
+let a = 5, b = 2;
+console.log(a + b); // Addition
+console.log(a - b); // Subtraction
+console.log(a * b); // Multiplication
+console.log(a / b); // Division
+console.log(a % b); // Modulus
+console.log(a ** b); // Exponentiation
+```
+
+#### 2️⃣ Assignment Operators
+Used to assign values:
+```js
+let num = 10;
+num += 5; // Equivalent to num = num + 5;
+console.log(num);
+```
+
+#### 3️⃣ Comparison Operators
+Used to compare values:
+```js
+console.log(5 == '5');  // true (checks only value)
+console.log(5 === '5'); // false (checks value & type)
+console.log(5 != 3);    // true
+console.log(5 > 3);     // true
+```
+
+#### 4️⃣ Logical Operators
+Used to combine conditions:
+```js
+console.log(true && false); // false (AND)
+console.log(true || false); // true (OR)
+console.log(!true); // false (NOT)
+```
+
+---
+
+## 🎯 Task for Today
+✅ Practice using `var`, `let`, and `const`.  
+✅ Try different data types in the console.  
+✅ Use arithmetic, assignment, comparison, and logical operators.  
+
+You're doing great! 🎉 Tomorrow, we’ll cover **Control Flow (if-else, switch, loops).** 🚀
+
