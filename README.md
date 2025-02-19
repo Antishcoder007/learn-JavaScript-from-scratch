@@ -1,171 +1,140 @@
-# learn-JavaScript-from-scratch
-If you want to learn JavaScript form scratch here is the RoadMap that helps you to learn javascript. 
+# Week 1: Python Fundamentals (Beginner Level)
 ---
-# 🚀 JavaScript Learning Roadmap (One Month Plan)
-## 📅 One-Month JavaScript Learning Plan
+## Day 1: Variables and Data Types
+#### 🔹 Learn about `integers`, `floats`, `strings`, and `booleans`
+#### 🔹 Understand dynamic typing in Python
+#### 🛠 Exercise: Write a Python program to swap two variables without using a third variable.
 ---
-## 📌 Week 1: JavaScript Fundamentals
+## Day 2: Basic Operators
 ---
-### 📍 [Day 1: Introduction & Setup](JavaScript.md#javascript-learning---day-1-introduction--setup)
-#### ✅ What is `JavaScript`?
-#### ✅ History and Importance
-#### ✅ Setting up JS (Browser Console, VS Code)
-#### ✅ Running JavaScript in Browser
+#### 🔹 Arithmetic `(+, -, *, /, //, %, **)`
+#### 🔹 Comparison `(==, !=, <, >, <=, >=)`
+#### 🔹 Logical `(and, or, not)`
+#### 🛠 Exercise: Build a simple calculator using arithmetic operators.
+---
+## Day 3: Control Flow - if-elif-else
+#### 🔹 Write conditional statements
+#### 🔹 Use indentation for code blocks
+🛠 Exercise: Create a program that checks if a number is positive, negative, or zero.
 
 ---
-### 📍 Day 2: JavaScript Basics
-#### ✅ Variables (var, let, const)
-#### ✅ Data Types (String, Number, Boolean, Null, Undefined)
-#### ✅ Operators (Arithmetic, Assignment, Comparison, Logical)
+
+## Day 4: Loops - for and while
+#### 🔹 Iterate over sequences with for loops
+#### 🔹 Use while loops for condition-based iteration
+🛠 Exercise: Write a program to print the Fibonacci sequence up to 10 terms.
 
 ---
-### 📍 Day 3: Conditional Statements & Loops
-#### ✅ if, else, switch Statements
-#### ✅ Loops: for, while, do...while
-#### ✅ break and continue
+
+## Day 5: Lists and Basic List Operations
+#### 🔹 Create, access, and modify lists
+#### 🔹 Use common list methods (`append()`, `remove()`, `sort()`)
+🛠 Exercise: Write a Python script to remove duplicates from a list.
 
 ---
-### 📍 Day 4: Functions & Scope
-#### ✅ Function Declaration & Expressions
-#### ✅ Arrow Functions (()=>{})
-#### ✅ Function Parameters & Return Values
-#### ✅ Scope (global, local, block)
+
+## Day 6: String Manipulation
+#### 🔹 String indexing and slicing
+#### 🔹 String methods (`upper()`, `lower()`, `split()`, `join()`)
+🛠 Exercise: Reverse a string using slicing.
 
 ---
-### 📍 Day 5: Arrays & Objects
-#### ✅ Creating & Manipulating Arrays (push, pop, shift, unshift)
-#### ✅ Array Methods (map, filter, reduce, forEach)
-#### ✅ Objects (Properties, Methods)
+
+## Day 7: Input and Output + Basic File I/O
+#### 🔹 Use `input()` for user input
+#### 🔹 Print output with `print()`
+#### 🔹 Read/write files (`open()`, `read()`, `write()`)
+🛠 Mini-Project: Create a simple note-taking program that saves text to a file.
 
 ---
-### 📍 Day 6: Strings & Numbers
-#### ✅ String Methods (toUpperCase, toLowerCase, slice, split, concat)
-#### ✅ Number Methods (parseInt, parseFloat, toFixed)
+
+## Week 2: Intermediate Python
+Day 8: Functions
+#### 🔹 Define and call functions
+#### 🔹 Understand parameters and return values
+🛠 Exercise: Write a function that calculates the factorial of a number.
 
 ---
-### 📍 Day 7: Small Project & Practice
-#### ✅ Build a simple calculator using functions
-#### ✅ Revise concepts & solve JS challenges
+
+## Day 9: Modules and Importing
+#### 🔹 Use built-in modules (math, random)
+#### 🔹 Create and import custom modules
+🛠 Exercise: Generate a random password using the random module.
 
 ---
-## 📌 Week 2: DOM Manipulation & Events
 
-### 📍 Day 8: Document Object Model (DOM)
-#### ✅ What is the DOM?
-#### ✅ Selecting Elements (getElementById, querySelector)
-#### ✅ Modifying Elements (innerHTML, textContent, style)
-
----
-### 📍 Day 9: Handling Events
-#### ✅ Event Listeners (click, mouseover, keydown, keyup)
-#### ✅ addEventListener() Method
-#### ✅ Prevent Default Behavior
+## Day 10: Dictionaries
+#### 🔹 Create and manipulate key-value pairs
+#### 🔹 Dictionary methods (`keys()`, `values()`, `items()`)
+🛠 Exercise: Count word occurrences in a string using a dictionary.
 
 ---
-### 📍 Day 10: Forms & Input Handling
-#### ✅ Accessing Input Values
-#### ✅ Form Validation
-#### ✅ Handling Form Submission
+
+## Day 11: Tuples and Sets
+#### 🔹 Use immutable tuples and unordered sets
+#### 🔹 Understand their use cases
+🛠 Exercise: Remove duplicates from a list using sets.
 
 ---
-### 📍 Day 11: Local Storage & Session Storage
-#### ✅ localStorage vs. sessionStorage
-#### ✅ Storing & Retrieving Data
+
+## Day 12: List Comprehensions
+#### 🔹 Create concise list syntax
+#### 🔹 Use conditional logic in list comprehensions
+🛠 Exercise: Generate a list of squares from 1 to 10 using list comprehension.
 
 ---
-### 📍 Day 12: Small DOM Project
-#### ✅ Create a To-Do List App using JS & Local Storage
+
+## Day 13: `Lambda` Functions
+#### 🔹 Create small, anonymous functions
+#### 🔹 Use with `map()`, `filter()`
+🛠 Exercise: Use `map()` and a lambda function to double the values in a list.
 
 ---
-### 📍 Day 13: Introduction to ES6+ Features
-#### ✅ Template Literals
-#### ✅ Destructuring
-#### ✅ Spread & Rest Operators
-#### ✅ let, const vs var
+
+## Day 14: Error Handling
+#### 🔹 Use try-except for exception handling
+#### 🔹 Raise custom exceptions
+🛠 Mini-Project: Build a number guessing game that handles invalid inputs.
 
 ---
-### 📍 Day 14: Mini Project & Review
-#### ✅ Build a Color Theme Changer
-#### ✅ Revise and practice
+
+# Week 3: Advanced Python Concepts
+## Day 15: Object-Oriented Programming (OOP)
+#### 🔹 Define classes and create objects
+#### 🔹 Understand inheritance and polymorphism
+🛠 Exercise: Create a Car class with attributes like brand, model, and mileage.
 
 ---
-## 📌 Week 3: Asynchronous JavaScript
-### 📍 Day 15: Introduction to Asynchronous JS
-#### ✅ Synchronous vs Asynchronous
-#### ✅ Callbacks & Callback Hell
+
+## Day 16: Decorators
+#### 🔹 Modify or enhance functions without changing their code
+#### 🔹 Create and use decorators
+🛠 Exercise: Write a decorator that logs function calls.
 
 ---
-### 📍 Day 16: Promises & Async/Await
-#### ✅ Creating and Handling Promises
-#### ✅ Using async & await
+
+## Day 17: Generators
+#### 🔹 Use yield to create generator functions
+#### 🔹 Understand lazy evaluation and memory efficiency
+🛠 Exercise: Create a generator that yields even numbers up to 100.
 
 ---
-### 📍 Day 17: Fetch API & JSON
-#### ✅ Making API Calls (fetch())
-#### ✅ Handling JSON Data
+
+## Day 18: Context Managers
+#### 🔹 Use with statements for resource management
+#### 🔹 Create custom context managers
+🛠 Exercise: Write a custom context manager for handling file operations.
 
 ---
-### 📍 Day 18: Error Handling in JavaScript
-#### ✅ Try, Catch, Finally
-#### ✅ Handling API Errors
+
+## Day 19: Advanced Built-in Functions
+#### 🔹 Use `map()`, `filter()`, `reduce()`
+#### 🔹 Learn `zip()`, `enumerate()`, `any()`/`all()`
+🛠 Exercise: Combine two lists element-wise using `zip()`.
 
 ---
-### 📍 Day 19: Small API-Based Project
-#### ✅ Build a Weather App using Fetch API
 
----
-### 📍 Day 20: Modules & Import/Export
-#### ✅ Modular JavaScript (export & import)
-#### ✅ ES6 Modules vs CommonJS
-
----
-### 📍 Day 21: Review & Practice
-#### ✅ Revise all topics covered in the week
-#### ✅ Solve JavaScript problems
-
----
-## 📌 Week 4: Advanced Topics & Projects
-### 📍 Day 22: Object-Oriented Programming (OOP) in JavaScript
-#### ✅ Classes & Objects
-#### ✅ Constructor Functions
-#### ✅ Inheritance & Prototypes
-
----
-### 📍 Day 23: JavaScript Design Patterns & Best Practices
-#### ✅ Common Patterns (Singleton, Factory)
-#### ✅ Writing Clean & Optimized Code
-
----
-### 📍 Day 24: JavaScript & Browser APIs
-#### ✅ Geolocation API
-#### ✅ Web Storage API
-#### ✅ Canvas API
-
----
-### 📍 Day 25: JavaScript Frameworks Overview
-#### ✅ Introduction to React, Vue, and Angular
-#### ✅ Understanding how frameworks make JavaScript better
-
----
-### 📍 Day 26: Final JavaScript Project
-#### ✅ Build a Real-World Project (e.g., Notes App, Expense Tracker)
-
----
-### 📍 Day 27: Debugging & Performance Optimization
-#### ✅ Debugging in Browser DevTools
-#### ✅ Code Optimization Techniques
-
----
-### 📍 Day 28: Final Revision & Practice
-#### ✅ Solve Advanced JavaScript Challenges
-
----
-### 📍 Day 29: Interview Preparation & Best Practices
-#### ✅ Common JavaScript Interview Questions
-#### ✅ JS Coding Challenges
-
----
-### 📍 Day 30: Final Project Deployment & Conclusion
-#### ✅ Deploy the Final Project on GitHub Pages or Netlify
-#### ✅ Review the entire journey 🎉
----
+## Day 20: Final Review and Debugging Skills
+#### 🔹 Learn debugging techniques (`print()`, `pdb`, `logging`)
+#### 🔹 Review all previous concepts
+🛠 Mini-Project: Create a contact book where users can add, update, and delete contacts.
